@@ -1,0 +1,28 @@
+.center{
+    display: grid;
+    place-items: center;
+}
+
+.con{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    width: 90vmax;
+    height: 45vmax;
+    background-color: tomato; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+h1{
+    width: 20vmax;
+    aspect-ratio: 1/1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 8vmax;
+    color: white;
+    background-color: rgb(26, 151, 173);
+    display: grid;
+    place-items: center;
+    margin: 5%;
+}
